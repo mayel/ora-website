@@ -1,7 +1,7 @@
 //Variables
 $primary-color: #945974;
 $primary-color-hover: #4089c1;
-$background-color: #dd848b;
+$background-color: #f9c6a1;
 $almost-white: #f7f7f8;
 $lighter-gray: #dfe1e5;
 $light-gray: #ccc;
@@ -414,10 +414,9 @@ clip-path: polygon(0% 0%, 94% 0, 100% 50%, 94% 100%, 0 100%);
 
 //Call to Action
 
-
 .signup-form {
 	background: $background-color;
-	color: #fff;
+	color: $primary-color;
 	padding: 0;
 	padding-top: 2rem;
 	h3 {
@@ -461,7 +460,6 @@ clip-path: polygon(0% 0%, 94% 0, 100% 50%, 94% 100%, 0 100%);
 		border: none;
 	}
 }
-
 
 
 .nav-footer {
