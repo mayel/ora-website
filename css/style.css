@@ -217,7 +217,10 @@ li.nav-item .btn-white {
   padding-top: 1rem; }
   .cover-1 h1 {
     font-weight: 400;
-    margin: 3rem 0; }
+    margin: 2rem 0 2rem; }
+  .cover-1 h3 {
+    font-weight: 300;
+    margin: 2rem 0; }
   .cover-1 p.lead {
     margin: 2rem auto;
     color: rgba(255, 255, 255, 0.75); }
@@ -227,7 +230,7 @@ li.nav-item .btn-white {
     min-height: 44rem;
     margin: 0 auto; }
   .cover-1 .cover-logo {
-    max-width: 300px;
+    max-width: 260px;
     margin-bottom: 2rem; }
 
 .intro {
