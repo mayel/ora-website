@@ -17,6 +17,7 @@ $serif-font: 'Droid Serif', Times, Georgia, serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	border-radius: .3rem;
+	text-decoration: none;
 }
 
 @mixin border-radius {
@@ -64,6 +65,9 @@ h4 {
 p {
 	color: $medium-gray;
 	font-size: .9rem;
+	a {
+		text-decoration: underline;
+	}
 }
 
 .divider {
@@ -329,13 +333,11 @@ li.nav-item {
 		font-weight: 300;
 		margin: 1.5rem auto;
 	}
-	h3.li{
-	  font-size: 1.5rem;
-	}
 	.li:before{
 	  content: '● ';
 	  position: relative;
 	  bottom: .1em;
+	  font-size: 1.5rem;
 	}
 	p {
 		margin: 1.5rem auto;

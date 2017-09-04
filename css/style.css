@@ -32,6 +32,8 @@ h4 {
 p {
   color: #696b6e;
   font-size: .9rem; }
+  p a {
+    text-decoration: underline; }
 
 .divider {
   display: block;
@@ -110,7 +112,8 @@ p {
   font-size: .75rem;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: .3rem; }
+  border-radius: .3rem;
+  text-decoration: none; }
 
 .btn-outline-primary, .btn-outline-secondary, .btn-outline-white, .btn-outline-success, .btn-outline-info, .btn-outline-warning, .btn-outline-danger {
   border-width: 0.15rem; }
@@ -181,6 +184,7 @@ p {
   text-transform: uppercase;
   font-weight: 700;
   border-radius: .3rem;
+  text-decoration: none;
   border: 0;
   color: #fff; }
 
@@ -248,12 +252,11 @@ li.nav-item .btn-white {
     color: #000;
     font-weight: 300;
     margin: 1.5rem auto; }
-  .intro h3.li {
-    font-size: 1.5rem; }
   .intro .li:before {
     content: '● ';
     position: relative;
-    bottom: .1em; }
+    bottom: .1em;
+    font-size: 1.5rem; }
   .intro p {
     margin: 1.5rem auto;
     font-family: "Droid Serif", Times, Georgia, serif;
